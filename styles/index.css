@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  .brand{
+    font-size: 26px;
+    font-weight: 600;
+    align-content: center;
+    padding-left: 0;
+  }
+  nav{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+    
+    
+  }
+  
+ 
+    
+   
+
+  nav ul li{
+    list-style: none;
+    
+
+  }
+  nav li a{
+    text-decoration: none;
+    
+  }
+  .brand-icon{
+    display: flex;
+  }
+  .list{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+   
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 100px;
+    
+  }
+  
+  .btn-contact{
+    background-color: #FEA301;
+    height: 40px;
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+
+  }
+  .home1{
+    color: #FEA301;
+  }
+  .about1{
+    color: #01ACFD;
+  }
+  .facilities1{
+    color: #05D4DF;
+  }
+  .admission1{
+    color: #5D58EF;
+  }
+  .banner{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    gap: 100px;
+  }
+ .banner-describe{
+    justify-content: center;
+    align-content: center;
+ }
+ .btn-enroll{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+ }
+.empower{
+    color: #FEA301;
+}
+.vision{
+    color: #01ACFD;
+}
+.banner-title{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width:576px) {
+    nav{
+        flex-direction: column-reverse;
+        border-bottom: 1px solid #FEA301;
+        
+    }
+    .brand-icon{
+        
+        flex-direction: column;
+        margin: 0;
+
+        height: 70px;
+        width: 70px;
+    }
+    .list{
+        display: none;
+
+    }
+    .brand{
+        display: none;
+    }
+    .btn-contact{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-title{
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 0%;
+        margin-right: 0;
+        justify-content: center;
+    }
+    .banner-describe{
+        text-align: center;
+    }
+}
