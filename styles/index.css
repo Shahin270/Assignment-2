@@ -49,6 +49,9 @@
   .brand-icon{
     display: flex;
   }
+  .logo-image{
+    
+  }
   .list{
     display: flex;
     gap: 50px;
@@ -150,10 +153,29 @@
     
 
 }
-.card2{
-    
-    padding: 30px 20px 30px 20px;
+.card-bg{
+  background: linear-gradient(to bottom, #FFF4DC , #FFFFFF);
 }
+.card-bg3{
+  background: linear-gradient(to bottom, #EEE1FF , #FFFFFF);
+}
+.read-more{
+  text-decoration: none;
+ 
+}
+.read1{
+  color: #05D4DF;
+}
+.read2{
+  color: #FEA301;
+}
+.card-description{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+
 
 
 
@@ -170,24 +192,40 @@
     nav{
         flex-direction: column-reverse;
         border-bottom: 1px solid #FEA301;
+        margin-top: 0;
+        
         
     }
     .hamberger{
       display: inline;
-      height: 50px;
-      width: 40px;
+      height: 60px;
+      width: 60px;
+      margin-top: 0;
       
      
       
     }
+    .logo-image{
+      height: 60px;
+        width: 60px;
+        margin-top: 0;
+        
+
+    }
     
     .brand-icon{
+     
       
         margin-bottom: 20px;
-        gap: 250px;
+        /* gap: 300px; */
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: space-between;
 
-        height: 50px;
-        width: 40px;
+        
     }
     .list{
         display: none;
@@ -201,12 +239,14 @@
     }
     .banner{
         flex-direction: column-reverse;
+        margin-top: 0;
     }
     .hero-pic{
       height: auto;
       width: 80%;
       
     margin-left: 10%;
+    margin-bottom: 0;
       
       
     }
@@ -220,15 +260,15 @@
     }
     .banner-describe{
         text-align: center;
-        justify-content: center;
+        
         align-content: center;
     }
     .card{
       flex-direction: column;
-      margin-left: 0;
-      margin-right: 0;
+      margin-left: 3%;
+      margin-right: 10%;
       padding-left: 0;
       padding-right: 0;
-      width: 100%;
+      width: 80%;
     }
 }
