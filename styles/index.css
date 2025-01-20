@@ -27,6 +27,11 @@
     
     
   }
+  .hamberger{
+    display: none;
+    height: 50px;
+    width: 50px;
+  }
   
  
     
@@ -111,6 +116,44 @@
     font-size: 3rem;
     margin-bottom: 10px;
 }
+.card{
+   display: flex;
+   justify-items: center;
+   text-align: center;
+   margin-left: 10%;
+   margin-right: 10%;
+   gap: 30px;
+   
+  
+}
+.Standard{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+.card-container{
+    background-image: url(../assets/bg.png);
+    background-position: contain;
+    height: 100vh;
+    
+}
+.card1{
+    background: linear-gradient(to top, #FFFFFF , #DEF5FF);
+    
+    box-shadow:2px 5px 5px  rgba(0,0,0,0.1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    width: 100%;
+    
+
+}
+.card2{
+    
+    padding: 30px 20px 30px 20px;
+}
 
 
 
@@ -129,13 +172,22 @@
         border-bottom: 1px solid #FEA301;
         
     }
+    .hamberger{
+      display: inline;
+      height: 50px;
+      width: 40px;
+      
+     
+      
+    }
+    
     .brand-icon{
-        
-        flex-direction: column;
-        margin: 0;
+      
+        margin-bottom: 20px;
+        gap: 250px;
 
-        height: 70px;
-        width: 70px;
+        height: 50px;
+        width: 40px;
     }
     .list{
         display: none;
@@ -150,14 +202,33 @@
     .banner{
         flex-direction: column-reverse;
     }
+    .hero-pic{
+      height: auto;
+      width: 80%;
+      
+    margin-left: 10%;
+      
+      
+    }
     .banner-title{
+      font-size: 24px;
         text-align: center;
-        margin-top: 20px;
+        margin-top: auto;
         margin-left: 0%;
         margin-right: 0;
         justify-content: center;
     }
     .banner-describe{
         text-align: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .card{
+      flex-direction: column;
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
     }
 }
